@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Diana García | Portafolio</title>
+<meta name="description" content="Portafolio de Diana García: habilidades y proyectos de desarrollo web.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="wrap">
+    <a class="logo" href="#inicio">DG<span>.</span></a>
+    <ul>
+      <li><a href="#habilidades">Habilidades</a></li>
+      <li><a href="#proyectos">Proyectos</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main class="wrap" id="inicio">
+
+  <!-- Presentación -->
+  <header class="hero">
+    <div>
+      <p class="saludo">Hola, soy</p>
+      <h1><span class="grad">Diana García</span></h1>
+      <p class="rol">Estudiante de la <b>Universidad de Oriente</b> que convierte ideas en aplicaciones web con <b>TypeScript</b>, orden en el código y trabajo en equipo.</p>
+      <div class="botones">
+        <a class="btn primario" href="#proyectos">Ver proyectos</a>
+        <a class="btn secundario" href="https://github.com/damary-garcia" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn secundario" href="https://www.linkedin.com/in/diana-garcía-480009364" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+    <div class="foto-box">
+      <!-- Guarda tu foto como foto.jpg en esta misma carpeta -->
+      <img class="foto" src="foto.jpg" alt="Foto de Diana García" width="280" height="280"
+           onerror="this.onerror=null;this.src='data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 fill=%22%23141729%22/><circle cx=%2250%22 cy=%2238%22 r=%2218%22 fill=%22%238b5cf6%22/><path d=%22M14 96c4-26 20-36 36-36s32 10 36 36z%22 fill=%22%238b5cf6%22/></svg>'">
+    </div>
+  </header>
+
+  <!-- Habilidades -->
+  <section id="habilidades" aria-labelledby="hab">
+    <div class="titulo"><span class="num">01</span><h2 id="hab">Habilidades</h2></div>
+    <ul class="habilidades">
+      <li><div class="ico">TS</div>TypeScript</li>
+      <li><div class="ico">&lt;/&gt;</div>HTML y CSS</li>
+      <li><div class="ico">MVC</div>Patrón MVC</li>
+      <li><div class="ico">📄</div>Documentación técnica</li>
+      <li><div class="ico">🤝</div>Trabajo en equipo</li>
+    </ul>
+  </section>
+
+  <!-- Proyectos -->
+  <section id="proyectos" aria-labelledby="proy">
+    <div class="titulo"><span class="num">02</span><h2 id="proy">Proyectos</h2></div>
+    <div class="proyectos">
+
+      <article class="proyecto">
+        <div class="captura">
+          Aquí va la captura de pantalla
+          <!-- Guarda la captura como img/control-gastos.png -->
+          <img src="img/control-gastos.png" alt="Captura del proyecto Control de Gastos Simple" onerror="this.remove()">
+        </div>
+        <div class="info">
+          <h3>Control de Gastos Simple</h3>
+          <p>Aplicación para registrar y consultar gastos personales. Los datos se guardan en el navegador y cuenta con manual de usuario.</p>
+          <div class="tags"><span>TypeScript</span><span>MVC</span><span>localStorage</span></div>
+        </div>
+      </article>
+
+      <article class="proyecto">
+        <div class="captura">
+          Aquí va la captura de pantalla
+          <!-- Guarda la captura como img/juego-energia.png -->
+          <img src="img/juego-energia.png" alt="Captura del juego de energía eléctrica para niños" onerror="this.remove()">
+        </div>
+        <div class="info">
+          <h3>Juego de energía eléctrica</h3>
+          <p>Juego educativo para que los niños aprendan de forma divertida cómo funciona la energía eléctrica.</p>
+          <div class="tags"><span>Juego educativo</span><span>Energía eléctrica</span></div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto" aria-labelledby="cont">
+    <div class="contacto">
+      <h2 id="cont">¿Trabajamos juntos?</h2>
+      <p>Escríbeme o revisa mi trabajo en mis redes profesionales.</p>
+      <div class="botones">
+        <a class="btn primario" href="https://www.linkedin.com/in/diana-garcía-480009364" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn secundario" href="https://github.com/damary-garcia" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>© 2026 Diana García · Hecho con HTML y CSS</footer>
+
+</body>
+</html>
